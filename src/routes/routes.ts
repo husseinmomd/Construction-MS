@@ -1,0 +1,29 @@
+export class Routes {
+  public static readonly Main = "dashboard";
+  public static readonly Report_Finance = "reports/finance";
+  public static readonly Report_Work = "reports/work";
+  public static readonly Edit_Report = "reports/edit";
+  public static readonly Reports = "reports";
+  public static readonly Purchase_Requests = "purchase-requests";
+  public static readonly Add_Purchase_Requests = "purchase-requests/add";
+  public static readonly Payment_Voucher = "payment-voucher";
+  public static readonly Add_Payment_Voucher = "payment-voucher/add";
+  public static readonly Assets = "assets";
+  public static readonly Add_Assets = "assets/add";
+  public static readonly Edit_Assets = "assets/edit";
+  public static readonly Add_Category = "category/add";
+  public static readonly Employees = "employees";
+  public static readonly Add_Employee = "employees/add";
+  public static readonly Edit_Employee = "employees/edit";
+  public static readonly Add_Department = "department/add";
+  public static readonly Users = "users";
+  public static readonly Add_Users = "users/add";
+  public static readonly Edit_Users = "users/edit";
+  public static readonly Login = "/";
+  public static readonly index = "report/finance";
+  public static readonly NotFound = "*";
+  public static readonly Projects = "projects";
+  public static readonly Add_Projects = "projects/add";
+  public static readonly Edit_Projects = "projects/edit";
+  public static readonly UnAuthorized = "unAuthorized";
+}

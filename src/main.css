@@ -1,0 +1,39 @@
+.custom {
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.custom:hover {
+    transform: translateY(-4px);
+}
+
+.switch-btn {
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    /* height: 30px; */
+    padding: 13px 10px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: #ddd;
+}
+
+.switch-btn:hover {
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    background-color: #ddd;
+    color: #222;
+}
+
+.acc-btn {
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    padding: 10px;
+    color: #444;
+}
+
+.acc-btn:hover {
+    background-color: #ddd;
+    color: #222;
+    border-radius: 10px;
+}

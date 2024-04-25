@@ -1,0 +1,16 @@
+export enum Endpoints {
+  Auth = "auth/login",
+  Users = "users",
+  Assets = "assets",
+  Categories = "assets/categories",
+  Department = "department",
+  Employees = "employees",
+  PaymentVouchers = "payment-vouchers",
+  Authorize = "authorize",
+  PurchaseRequest = "purchase-requests",
+  Projects = "projects",
+  Reports = "reports",
+  ReportType = "report/types",
+  Roles = "roles",
+  EmployeeUploads = "employee/uploads",
+}

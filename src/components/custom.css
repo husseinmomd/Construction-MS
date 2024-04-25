@@ -1,0 +1,7 @@
+.custom-project {
+        transition: all ease-in-out .3s;
+        cursor: pointer;
+}
+.custom-project:hover {
+      transform: translateY(-4px);
+}
